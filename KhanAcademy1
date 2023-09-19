@@ -1,0 +1,7 @@
+create table store(id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, price INTEGER);
+INSERT INTO store values(1, "book", 2,3);
+INSERT INTO store values(2, "hotdog",4,5);
+INSERT INTO store values(3,"hamburger",6,7);
+INSERT INTO store values(4,"soda",3,4);
+INSERT INTO store values(5,"water",2,3);
+select* from store where price order by price
